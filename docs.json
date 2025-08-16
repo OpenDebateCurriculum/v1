@@ -1,127 +1,85 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Open Debate Curriculum",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1E40AF",
+    "light": "#3B82F6",
+    "dark": "#1E3A8A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Lessons",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Unit 1: The Foundations",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "unit-1/the-activity",
+              "unit-1/introduction-to-argumentation",
+              "unit-1/writing-arguments",
+              "unit-1/rebuttals",
+              "unit-1/evidence"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Unit 2: Competition",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "unit-2/event-structure",
+              "unit-2/burdens-of-aff-neg",
+              "unit-2/disad-dan",
+              "unit-2/offense-defense-paradigm",
+              "unit-2/impact-calculus",
+              "unit-2/tech-vs-truth"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Unit 3: Speaking Effectively",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "unit-3/cross-examination",
+              "unit-3/speaking-drills",
+              "unit-3/word-economy"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Unit 4: Policy & LD",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "unit-4/counterplan",
+              "unit-4/answering-counterplan",
+              "unit-4/topicality",
+              "unit-4/answering-topicality",
+              "unit-4/conditionality",
+              "unit-4/theory-shells",
+              "unit-4/kritiks",
+              "unit-4/answering-kritiks",
+              "unit-4/k-affs-responses",
+              "unit-4/philosophy"
             ]
           },
           {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "group": "Unit 5: Circuit Debating",
+            "pages": ["unit-5/jargon"]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contribute",
+        "href": "https://github.com/OpenDebateCurriculum/v1"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+    "options": ["copy", "view", "chatgpt", "claude"]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/OpenDebateCurriculum/v1"
     }
   }
 }
